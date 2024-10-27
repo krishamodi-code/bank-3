@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bank</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        .bankL {
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h2><i>Bank App</i></h2>
+        </div>
+        <div class="row">
+            <label>Enter Transaction Amount</label>
+            <input type="number" id="amount" placeholder="Amount">
+        </div>
+        <div class="row buttons">
+            <button id="credit" class="btn">Credit</button>
+            <button id="debit" class="btn">Debit</button>
+        </div>
+        <div id="row">
+            <label>Your Account Balnce is: Rs.</label>
+            <label id="balance">0</label>
+        </div>
+        <div class="row">
+            <label id="message"></label>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
